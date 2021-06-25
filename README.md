@@ -15,3 +15,12 @@ And finally the firmware code for the LED stick here: https://github.com/sparkfu
 ---------------------------------------------------------------------------------------------------
 
 The firmware code serves as the source for all command addresses as well as the write data required for each command
+
+---------------------------------------------------------------------------------------------------
+
+# Pinout Instructions
+Using the Qwiic Cable - Breadboard Jumper: https://www.sparkfun.com/products/14425
+Red Wire    -> 3.3V   to Rpi Pin1
+Black Wire  -> Ground to Rpi Pin6
+Blue Wire   -> SDA    to Rpi Pin3 (GPIO/BCM 2)
+Yellow Wire -> SCL    to Rpi Pin5 (GPIO/BCM 3)
