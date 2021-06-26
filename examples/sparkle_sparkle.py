@@ -1,8 +1,9 @@
+#!/usr/bin/python3
+
 from random import random,randint
 import qwiicpy_led as qpy
 
 qpy.write_all_leds_off()
-
 qpy.write_all_leds_brightness(1)
 
 ttl = [0]*10

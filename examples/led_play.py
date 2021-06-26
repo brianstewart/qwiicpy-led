@@ -1,3 +1,5 @@
+#!/usr/bin/python3
+
 import qwiicpy_led as qpy
 
 qpy.write_all_leds(0x00,0x00,0x0D)

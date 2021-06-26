@@ -1,9 +1,5 @@
 #!/usr/bin/python3
 
-#  Import path to qwiicpy-led to run this at @reboot in crontab
-import sys
-sys.path.append('/home/pi/.local/lib/python3.7/site-packages/')
-
 import qwiicpy_led as qpy
 
 BRIGHT = 1

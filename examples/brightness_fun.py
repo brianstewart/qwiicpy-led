@@ -1,3 +1,5 @@
+#!/usr/bin/python3
+
 from random import random,randint
 import qwiicpy_led as qpy
 
